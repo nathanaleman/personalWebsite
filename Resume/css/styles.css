@@ -1,0 +1,180 @@
+body {
+    /* background-color: #ebebe5; */
+    background-color: #f7f5ee;
+    color: black;
+    margin: 0;
+    text-align: center;
+}
+
+h4 {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 15px;
+}
+
+h3 {
+    padding-top: 15px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+h1 {
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+ul {
+    text-align: left;
+    list-style: inside;
+    /* padding-left: 40%; */
+}
+
+.newSection {
+    margin: 20px auto;
+    border-width: 2px;
+}
+
+.transition {
+    border-style: none;
+    border-top: dotted;
+    width: 3%;
+    border-width: 5px;
+    color: grey;
+    margin: 20px auto;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #f9fce8 !important;
+}
+
+.nav-link {
+    padding: 15px 18px;
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    color: #525151 !important;
+}
+
+.nav-link:hover {
+    color: #080808 !important;
+}
+
+.navbar-brand {
+    padding-left: 2%;
+    font-size: 1.7rem;
+}
+
+/* might only need for the home page but will keep for now just in case
+.bar.scrolled {
+    background-color: #f9fce8 !important;
+    transition: background-color 200ms linear;
+}
+
+.bar.scrolled .nav-link {
+    color: #525151 !important;
+}
+
+.bar.scrolled .nav-link:hover {
+    color: black !important;
+} */
+
+.middle-container {
+    padding-top: 100px;
+}
+
+.personal {
+    padding-left: 0;
+    text-align: center;
+}
+
+.volunteer {
+    text-align: center;
+    padding: 0 15px;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.work {
+    padding-right: 150px;
+    padding-left: 58px;
+    padding-bottom: 50px;
+}
+
+.volunteer-pic {
+    width: 100%;
+    height: 50%;
+    padding-bottom: 40px;
+}
+
+.workBlock {
+    padding: 25px 0px;
+    background-color: white;
+}
+
+.information {
+    padding-left: 57px;
+    padding-bottom: 25px;
+}
+
+.infoBlock {
+    padding: 25px 0px;
+    background-color: white;
+    text-align: center;
+}
+
+.smith {
+    /* line-height: 0.5; */
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 45px;
+}
+
+/* conatct and copywrite */
+.bottom-container {
+    background-color: #f9fce8;
+    padding: 50px 0 20px;
+
+}
+
+.footer-icon{
+    padding: 0% 1%;
+    color: #120da3;
+}
+
+.footer-icon:hover {
+    color: #1c15fc;
+}
+
+.copyright {
+    text-decoration: none;
+    line-height: 2;
+}
+
+@media (max-width:991px) {
+    .information {
+        padding: 25px 50px;
+    }
+
+    .work {
+        padding: 25px 50px;
+    }
+
+    h1 {
+        text-align: center;
+        padding-right: 30px;
+    }
+    .btn {
+        margin-top: 0px;
+    }
+    .pdf {
+        padding-bottom: 30px;
+    }
+    ul {
+        text-align: left;
+        list-style: inside;
+        padding-left: 40%;
+    }
+}

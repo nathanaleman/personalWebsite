@@ -1,0 +1,129 @@
+body {
+    text-align: center;
+    background-color: #f7f5ee;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: #ff5d17;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    margin: 100px auto;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #f9fce8 !important;
+}
+
+.nav-link {
+    padding: 15px 18px;
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    color: #525151 !important;
+}
+
+.nav-link:hover {
+    color: #080808 !important;
+}
+
+.navbar-brand {
+    padding-left: 2%;
+    font-size: 1.7rem;
+}
+
+/* might only need for the home page but will keep for now just in case
+.bar.scrolled {
+    background-color: #f9fce8 !important;
+    transition: background-color 200ms linear;
+}
+
+.bar.scrolled .nav-link {
+    color: #525151 !important;
+}
+
+.bar.scrolled .nav-link:hover {
+    color: black !important;
+} */
+
+img {
+    width: 90%;
+    height: 95%;
+    border-radius: 75px;
+    padding-top: 20px;
+}
+
+.middle-container {
+    padding-top: 100px;
+}
+
+.contact {
+    padding-top: 75px;
+}
+
+
+
+.form {
+    border-radius: 15px;
+    width: 90%;
+    text-align: Left;
+    padding-left: 20px;
+}
+
+.msg {
+    height: 125px
+}
+
+input:focus {
+    outline: none;
+}
+
+.msg:focus {
+    outline: none;
+}
+
+/* conatct and copywrite */
+.bottom-container {
+    background-color: #f9fce8;
+    padding: 50px 0 20px;
+
+}
+
+.footer-icon{
+    padding: 0% 1%;
+    color: #120da3;
+}
+
+.footer-icon:hover {
+    color: #1c15fc;
+}
+
+
+.copyright {
+    text-decoration: none;
+}
+
+@media(max-width:991px) {
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .middle-container {
+        padding-bottom: 50px;
+    }
+    .contact {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}

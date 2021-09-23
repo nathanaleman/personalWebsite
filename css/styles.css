@@ -1,0 +1,121 @@
+body {
+    color: black;
+    /* margin: 0; */
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    margin: 100px auto;
+}
+
+.bg-img {
+    width: 100%;
+    height: 400%;
+}
+
+/* Navbar */
+.nav-link {
+    background: transparent;
+    padding: 15px 18px;
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    color: #363535 !important;
+}
+
+.nav-link:hover {
+    color: #080808 !important;
+}
+
+.navbar-brand {
+    padding-left: 2%;
+    font-size: 1.7rem;
+}
+
+.bar.scrolled {
+    background-color: #f9fce8 !important;
+    transition: background-color 200ms linear;
+}
+
+.bar.scrolled .nav-link {
+    color: #525151 !important;
+}
+
+.bar.scrolled .nav-link:hover {
+    color: black !important;
+}
+
+/* Middle of the website */
+.middle-container {
+    padding-top: 50px;
+    margin-left: 100px 0;
+}
+
+.skill-row {
+    width: 70%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    padding-bottom: 50px;
+}
+
+.profile-img {
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+}
+
+.profile-text {
+    color: #40514E;
+    width: 50%;
+    margin: auto;
+}
+
+.skill-one-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-two-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/* conatct and copywrite */
+.bottom-container {
+    background-color: #f9fce8;
+    padding: 50px 0 20px;
+
+}
+
+.footer-icon {
+    padding: 0% 1%;
+    color: #120da3;
+}
+
+.footer-icon:hover {
+    color: #1c15fc;
+}
+
+.copyright {
+    text-align: center;
+    text-decoration: none;
+}
+
+@media (max-width:991px) {
+    .navbar:hover {
+        background-color: #f9fce8;
+    }
+}
